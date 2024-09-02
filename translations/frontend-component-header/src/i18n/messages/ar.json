@@ -1,5 +1,5 @@
 {
-  "header.links.courses": "المساقات",
+  "header.links.courses": "الدورات",
   "header.links.programs": "البرامج",
   "header.links.content.search": "اكتشف الجديد",
   "header.links.schools": "المدارس و الشركاء",
@@ -32,5 +32,5 @@
   "header.menu.signOut.label": "تسجيل الخروج",
   "header.user.menu.studio": "صفحة الاستوديو الرئيسية",
   "header.user.menu.maintenance": "الصيانة",
-  "header.label.courseOutline": "الرجوع إلى مخطط المساق الكلّي في الاستوديو"
+  "header.label.courseOutline": "الرجوع إلى مخطط الدورة الكلّي في الاستوديو"
 }
