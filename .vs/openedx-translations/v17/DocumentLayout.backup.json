@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-account\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-account\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,141 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-program-console\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T22:04:26.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-account\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-account\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-account\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-account\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAAcBAAAAAAAAAAAswCEBAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T22:01:50.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-authn\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAswH8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T22:00:31.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-profile\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:57:14.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-learning\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAACsAAAAAAAAAAAAswBwAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:53:45.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-learner-record\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAswE0AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:53:11.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-discussions\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswG0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:52:17.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-gradebook\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAADAAAAAAAAAAAAAswD4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:51:08.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ar.json",
-              "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json",
-              "RelativeDocumentMoniker": "translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json",
-              "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json",
-              "RelativeToolTip": "translations\\frontend-app-learner-dashboard\\src\\i18n\\messages\\ar.json",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAswE8AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-02T21:48:09.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "django.po",
               "DocumentMoniker": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
               "RelativeDocumentMoniker": "translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
               "ToolTip": "C:\\Users\\mohamed.samir\\source\\repos\\openedx-translations\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
               "RelativeToolTip": "translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
-              "ViewState": "AgIAAI5dAAAAAAAAAAAMwIRdAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACAgAAAAAAAAAAAMwC8gAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-02T21:39:40.026Z",
+              "WhenOpened": "2024-09-03T02:16:17.026Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

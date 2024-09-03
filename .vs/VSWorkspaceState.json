@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\translations",
+    "\\translations\\edx-platform",
+    "\\translations\\edx-platform\\conf",
+    "\\translations\\edx-platform\\conf\\locale",
+    "\\translations\\edx-platform\\conf\\locale\\ar",
+    "\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES",
+    "\\translations\\edx-platform\\conf\\locale\\da\\LC_MESSAGES",
+    "\\translations\\edx-platform\\conf\\locale\\en\\LC_MESSAGES"
   ],
-  "SelectedNode": "\\C:\\Users\\mohamed.samir\\Source\\Repos\\openedx-translations",
+  "SelectedNode": "\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
   "PreviewInSolutionExplorer": false
 }
