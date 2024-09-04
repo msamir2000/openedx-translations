@@ -1617,7 +1617,7 @@ msgstr "لا توجد اختبارات في الدورة {course_id} ."
 #: views.py:2143
 #, python-brace-format
 msgid "No proctored exams in course {course_id}"
-msgstr "لا توجد اختبارات مراقبة في المساق {course_id}"
+msgstr "لا توجد اختبارات مراقبة في الدورة {course_id}"
 
 #: views.py:2170
 #, python-brace-format

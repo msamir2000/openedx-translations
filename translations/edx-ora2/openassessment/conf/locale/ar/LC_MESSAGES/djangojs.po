@@ -112,7 +112,7 @@ msgstr "تعذّرت إزالة التقديم من مجموعة التقييم.
 #: xblock/static/dist/openassessment-studio.d576fb212cefa2e4b720.js:1
 #: xblock/static/js/src/oa_server.js:671
 msgid "Multiple teams returned for course"
-msgstr "عودة عدة فرق للمساق"
+msgstr "عودة عدة فرق للدورة"
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:8
 #: xblock/static/dist/openassessment-studio.d576fb212cefa2e4b720.js:1
@@ -337,7 +337,7 @@ msgid ""
 " be uploaded. If you have questions, please reach out to the course team."
 msgstr ""
 "فشل تحميل الملف: صيغة الملف غير مدعومة. يمكن فقط تحميل الملف المدعومة. عند "
-"وجود أي استفسار يرجى الاتصال بفريق المساق."
+"وجود أي استفسار يرجى الاتصال بفريق الدورة."
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:377
 #: xblock/static/js/src/lms/oa_response.js:614
@@ -417,7 +417,7 @@ msgid ""
 "lose any work you have done."
 msgstr ""
 "ستفقد أي تغيير كنت قد أجريته إذا تركت هذه الصفحة دون تقديم تقييمك لطاقم "
-"المساق."
+"الدورة."
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:377
 #: xblock/static/js/src/lms/oa_training.js:130

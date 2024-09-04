@@ -227,7 +227,7 @@ msgid ""
 "Enable the application of program offers to remaining unenrolled or "
 "unverified courses"
 msgstr ""
-"تمكين تطبيق عروض البرنامج إلى المساقات الغير المسجلة أو التي لم يتم التحقق "
+"تمكين تطبيق عروض البرنامج إلى الدورات الغير المسجلة أو التي لم يتم التحقق "
 "منها"
 
 #: core/models.py:187
@@ -331,7 +331,7 @@ msgstr "مرحباً بك في edX"
 msgid ""
 "Please choose from the courses selected by your organization to start "
 "learning."
-msgstr "يرجى اختيار مساق من المساقات التي اختارتها مؤسستك لبدء الدراسة."
+msgstr "يرجى اختيار دورة من الدورات التي اختارتها مؤسستك لبدء الدراسة."
 
 #: coupons/views.py:168
 msgid "Code not provided."
@@ -359,7 +359,7 @@ msgid ""
 "individual course in the program. If you need assistance, contact edX "
 "support."
 msgstr ""
-"هذه القسيمة غير صالحة لشراء برنامج. حاول استخدام هذا على مساق واحد في "
+"هذه القسيمة غير صالحة لشراء برنامج. حاول استخدام هذا على دورة واحد في "
 "البرنامج. عند الحاجة إلى المساعدة اتصل بدعم edX."
 
 #: coupons/views.py:245
@@ -378,7 +378,7 @@ msgstr "تم تطبيق خصم، مهدى من {enterprise_customer_name}."
 
 #: coupons/views.py:299
 msgid "This coupon code is not valid for this course. Try a different course."
-msgstr "رمز القسيمة غير صالح لهذا المساق. جرب دورة مختلفة."
+msgstr "رمز القسيمة غير صالح لهذه الدورة. جرب دورة مختلفة."
 
 #: courses/models.py:33 extensions/basket/models.py:20
 #: extensions/offer/models.py:238 extensions/payment/models.py:68
@@ -395,7 +395,7 @@ msgstr "آخر تاريخ/توقيت يمكن تقديم توثيق لهذا ا�
 #, python-brace-format
 msgid "Failed to publish commerce data for {course_id} to LMS."
 msgstr ""
-"فشلت عملية نشر البيانات التجارية للمساق {course_id} إلى نظام إدارة التعلّم "
+"فشلت عملية نشر البيانات التجارية للدورة {course_id} إلى نظام إدارة التعلّم "
 "’LMS‘"
 
 #: courses/utils.py:138
@@ -443,7 +443,7 @@ msgid ""
 "An error has occurred. We could not confirm that you are eligible for course"
 " credit. Try the transaction again."
 msgstr ""
-"نأسف لحدوث خطأ. تعذّر التأكد من أهليتك للحصول على ساعة معتمدة للمساق. يُرجى "
+"نأسف لحدوث خطأ. تعذّر التأكد من أهليتك للحصول على ساعة معتمدة للدورة. يُرجى "
 "إعادة محاولة إجراء العمليّة مرّة أخرى."
 
 #: credit/views.py:61
@@ -455,7 +455,7 @@ msgid ""
 "Support Team."
 msgstr ""
 "المادة التعليمية غير متاحة حاليًا في \"{course_name}\". إذا كنت مُسجَّلاً "
-"بالفعل في المساق، فيُرجى المحاولة مرة أخرى بعد الانتهاء التقييم. وإذا كنت "
+"بالفعل في الدورة، فيُرجى المحاولة مرة أخرى بعد الانتهاء التقييم. وإذا كنت "
 "بحاجة إلى مزيدٍ من المساعدة، فيُرجى الاتصال بفريق الدعم في {site_name}."
 
 #: credit/views.py:75
@@ -464,7 +464,7 @@ msgid ""
 "selected offers this course credit. Try the transaction again."
 msgstr ""
 "حدث خطأ. لم نتمكّن من التأكّد من أن المؤسسة التعليمية التي اخترتها تقدّم "
-"مساقًا معتمدًا. حاول تنفيذ العمليّة من جديد."
+"دورةًا معتمدًا. حاول تنفيذ العمليّة من جديد."
 
 #: enterprise/benefits.py:24
 #, python-format
@@ -873,7 +873,7 @@ msgstr "يجب أن يكون للمنتجات سعر"
 
 #: extensions/api/serializers.py:715
 msgid "You need to provide a course UUID to create Course Entitlements."
-msgstr "يجب عليك تقديم رمز التعريف المميز للمساق لإنشاء ميزات المساق."
+msgstr "يجب عليك تقديم رمز التعريف المميز للدورة لإنشاء ميزات الدورة."
 
 #: extensions/api/serializers.py:749
 msgid "Products must indicate whether ID verification is required."
@@ -891,7 +891,7 @@ msgid ""
 "[publish_course_modes_to_lms] is disabled. To avoid ghost SKUs, data has not"
 " been saved."
 msgstr ""
-"لم يُنشر المساق [{course_id}] إلى نظام إدارة التعلّم ’LMS‘ نظرًا لإلغاء "
+"لم يُنشر الدورة [{course_id}] إلى نظام إدارة التعلّم ’LMS‘ نظرًا لإلغاء "
 "تفعيل التبديل [publish_course_modes_to_lms]. لم يجري حفظ البيانات لتفادي "
 "كودات التخزين التعريفية الزائفة."
 
@@ -970,7 +970,7 @@ msgid ""
 "Due to export controls, we cannot allow you to access this course at this "
 "time."
 msgstr ""
-"نظرا لضوابط التصدير، لا يمكننا السماح لك بالوصول إلى هذا المساق في الوقت "
+"نظرا لضوابط التصدير، لا يمكننا السماح لك بالوصول إلى هذه الدورة في الوقت "
 "الحالي."
 
 #: extensions/basket/utils.py:245
@@ -1027,23 +1027,23 @@ msgid ""
 "After you complete your order you will be able to select course dates from "
 "your dashboard."
 msgstr ""
-"عند إتمام طلبيتك ستكون قادرًا على تحديد تواريخ المساق من لوحة معلوماتك."
+"عند إتمام طلبيتك ستكون قادرًا على تحديد تواريخ الدورة من لوحة معلوماتك."
 
 #: extensions/basket/views.py:312
 msgid ""
 "After you complete your order you will be automatically enrolled in the "
 "verified track of the course."
-msgstr "عند استكمال طلبيتك سيتم إلحاقك تلقائيًا في المسار الموثّق للمساق."
+msgstr "عند استكمال طلبيتك سيتم إلحاقك تلقائيًا في المسار الموثّق للدورة."
 
 #: extensions/basket/views.py:316
 msgid "After you complete your order you will receive credit for your course."
-msgstr "عند إتمام طلبيتك ستحصل على اعتماد لمساقك."
+msgstr "عند إتمام طلبيتك ستحصل على اعتماد لدورةك."
 
 #: extensions/basket/views.py:319
 msgid ""
 "After you complete your order you will be automatically enrolled in the "
 "course."
-msgstr "عند استكمال طلبيتك سيتم إلحاقك تلقائيًا في للمساق."
+msgstr "عند استكمال طلبيتك سيتم إلحاقك تلقائيًا في للدورة."
 
 #: extensions/basket/views.py:323
 #, python-brace-format
@@ -1062,12 +1062,12 @@ msgid ""
 "{paragraph_end}"
 msgstr ""
 "{paragraph_start} عند الشراء، توافق أنت والمؤسسة على الشروط "
-"التالية:{paragraph_end} {ul_start} {li_start} كل رمز صالح للمساق الواحد الذي"
+"التالية:{paragraph_end} {ul_start} {li_start} كل رمز صالح للدورة الواحد الذي"
 " تم تناوله ويمكن استخدامه مرة واحدة فقط.{li_end} {li_start}أنت المسؤول عن "
 "توزيع الرموز على المتعلمين في مؤسستك.{li_end} {li_start}ستنتهي صلاحية كل رمز"
-" خلال سنة واحدة من تاريخ الشراء أو-على الأقرب- فبمجرد إغلاق المساق.{li_end} "
-"{li_start}إذا لم يتم تعيين المساق على نظام التعلم الذاتي، فعليك التأكيد على "
-"أن مشغل المساق متوفر قبل انتهاء صلاحيته. {li_end} {li_start}لا يجوز لك إعادة"
+" خلال سنة واحدة من تاريخ الشراء أو-على الأقرب- فبمجرد إغلاق الدورة.{li_end} "
+"{li_start}إذا لم يتم تعيين الدورة على نظام التعلم الذاتي، فعليك التأكيد على "
+"أن مشغل الدورة متوفر قبل انتهاء صلاحيته. {li_end} {li_start}لا يجوز لك إعادة"
 " بيع الرموز لجهات خارجية.{li_end} {li_start}كل عمليات edX لمبيعات الأعمال "
 "نهائية ومخوّلة لاسترداد الرسوم.{li_end}{ul_end} {paragraph_start}ستتلقى "
 "بريدًا إلكترونيًا على {user_email} يتضمن رمز (رموز) الالتحاق. "
@@ -1241,7 +1241,7 @@ msgstr "يدوي"
 
 #: extensions/offer/models.py:447
 msgid "Course Catalog ID from the Discovery Service."
-msgstr "معرف دليل المساقات من خدمة الاستكشاف."
+msgstr "معرف دليل الدورات من خدمة الاستكشاف."
 
 #: extensions/offer/models.py:458
 msgid "UUID for an EnterpriseCustomerCatalog from the Enterprise Service."
@@ -1322,7 +1322,7 @@ msgstr ""
 #: extensions/order/benefits.py:22
 #, python-format
 msgid "%d%% discount for manual course enrollment order"
-msgstr "%d%% خصم للطلب اليدوي للالتحاق بمساق."
+msgstr "%d%% خصم للطلب اليدوي للالتحاق بدورة."
 
 #: extensions/order/models.py:39 extensions/payment/models.py:26
 msgid "Payment Processor"
@@ -1599,7 +1599,7 @@ msgstr "استفسار عن كتالوج"
 #: extensions/voucher/utils.py:55 extensions/voucher/utils.py:285
 #: extensions/voucher/utils.py:340
 msgid "Redeemed For Course IDs"
-msgstr "تم الاسترداد بمعرّفات المساق"
+msgstr "تم الاسترداد بمعرّفات الدورة"
 
 #: extensions/voucher/utils.py:57 extensions/voucher/utils.py:284
 #: extensions/voucher/utils.py:331 extensions/voucher/utils.py:339
@@ -1704,7 +1704,7 @@ msgstr "سعر"
 #: extensions/voucher/utils.py:327 extensions/voucher/utils.py:333
 #: templates/oscar/dashboard/partials/enrollment_table.html:8
 msgid "Course ID"
-msgstr "رقم تعريف المساق "
+msgstr "رقم تعريف الدورة "
 
 #: extensions/voucher/utils.py:188 extensions/voucher/utils.py:273
 #: extensions/voucher/utils.py:328 extensions/voucher/utils.py:334
@@ -2075,7 +2075,7 @@ msgstr ""
 #: templates/courses/course_app.html:5
 #: templates/edx/partials/_administration_menu.html:5
 msgid "Courses"
-msgstr "المساقات"
+msgstr "الدورات"
 
 #: templates/courses/course_app.html:27
 #, python-format
@@ -2085,7 +2085,7 @@ msgid ""
 "                            "
 msgstr ""
 "\n"
-"%(platform_name)sأداة إدارة المساق"
+"%(platform_name)sأداة إدارة الدورة"
 
 #: templates/courses/menu_options.html:8
 msgid "Student Dashboard"
@@ -2093,7 +2093,7 @@ msgstr "لوحة معلومات الطالب"
 
 #: templates/courses/menu_options.html:11
 msgid "Course Admin Tool"
-msgstr "أداة مشرف المساق"
+msgstr "أداة مشرف الدورة"
 
 #: templates/courses/menu_options.html:14
 msgid "E-Commerce Dashboard"
@@ -2227,10 +2227,10 @@ msgid ""
 "{link_start}{lms_dashboard_url}{link_middle}dashboard{link_end}, next to the"
 " course name."
 msgstr ""
-"للحصول على الائتمان الدراسي لهذا المساق، يجب عليك تقديم طلب للحصول على "
+"للحصول على الائتمان الدراسي لهذه الدورة، يجب عليك تقديم طلب للحصول على "
 "الائتمان من المؤسسة التي تقدم الائتمان. يمكنك العثور على رابط موقع المؤسسة "
 "في {link_start}{lms_dashboard_url}{link_middle} لوحة المعلومات {link_end} "
-"بجانب اسم المساق."
+"بجانب اسم الدورة."
 
 #: templates/edx/checkout/receipt.html:210
 msgid "Go to dashboard"
@@ -2238,7 +2238,7 @@ msgstr "الذهاب إلى لوحة المعلومات"
 
 #: templates/edx/checkout/receipt.html:213
 msgid "Find more courses"
-msgstr "استكشاف المزيد من المساقات"
+msgstr "استكشاف المزيد من الدورات"
 
 #: templates/edx/checkout/receipt_not_found.html:7
 msgid "Order Not Found"
@@ -2325,9 +2325,9 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"تهانينا! أنت مؤهّل لشراء ساعة مساق أكاديمي لهذا المساق.\n"
-"يجب أن تشتري ساعة مساقك قبل %(date)s.\n"
-"اختر أحد المؤسسات التعليمية التالية لشراء وحدة مساقك."
+"تهانينا! أنت مؤهّل لشراء ساعة دورة أكاديمي لهذه الدورة.\n"
+"يجب أن تشتري ساعة دورةك قبل %(date)s.\n"
+"اختر أحد المؤسسات التعليمية التالية لشراء وحدة دورةك."
 
 #: templates/edx/credit/checkout.html:51
 msgid "Price:"
@@ -2351,7 +2351,7 @@ msgid ""
 "The hard work is over - you passed the course! Now get the credit you "
 "deserve to start or complete a degree."
 msgstr ""
-"انتهى الجزء المتعب - لقد أنهيت المساق بنجاح! والآن يمكنك الحصول على اعتماد "
+"انتهى الجزء المتعب - لقد أنهيت الدورة بنجاح! والآن يمكنك الحصول على اعتماد "
 "المقرّر الذي تستحق للبدء أو إتمام الدرجة التي تعمل لنيلها."
 
 #: templates/edx/credit/checkout.html:98
@@ -2445,7 +2445,7 @@ msgstr "تسجيل الدخول"
 
 #: templates/edx/partials/_staff_navbar.html:9
 msgid "E-Commerce Course Administration"
-msgstr "إدارة التجارة الإلكترونية للمساق"
+msgstr "إدارة التجارة الإلكترونية للدورة"
 
 #: templates/edx/partials/_staff_navbar.html:14
 msgid "E-Commerce Coupon Administration"
@@ -2857,7 +2857,7 @@ msgid ""
 "You can access your course and complete your verification (if required) on "
 "your %(platform_name)s dashboard. "
 msgstr ""
-"يمكنك الوصول إلى مساقك وإتمام عملية التوثيق (إذا كان مطلوبًا) باستخدام لوحة "
+"يمكنك الوصول إلى دورةك وإتمام عملية التوثيق (إذا كان مطلوبًا) باستخدام لوحة "
 "معلومات منصّة  %(platform_name)s الخاصّة بك."
 
 #: templates/oscar/communication/emails/commtype_course_purchased_body.html:14
@@ -2867,8 +2867,8 @@ msgid ""
 "To explore other great courses, visit the %(platform_name)s website. More "
 "courses are added every day!"
 msgstr ""
-"يُمكنك زيارة موقع %(platform_name)s لاستكشاف العديد من المساقات الرائعة "
-"الأخرى حيث تُضاف مساقات جديدة كل يوم."
+"يُمكنك زيارة موقع %(platform_name)s لاستكشاف العديد من الدورات الرائعة "
+"الأخرى حيث تُضاف دورات جديدة كل يوم."
 
 #: templates/oscar/communication/emails/commtype_course_purchased_body.html:17
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:43
@@ -2878,7 +2878,7 @@ msgstr "عرض معلومات الدفع"
 #: templates/oscar/communication/emails/commtype_course_purchased_body.html:20
 #: templates/oscar/communication/emails/commtype_course_purchased_body.txt:14
 msgid "Thank you. We hope you enjoy the course!"
-msgstr "نشكر مشاركتك ونأمل أن تستمتع بالمساق!"
+msgstr "نشكر مشاركتك ونأمل أن تستمتع بالدورة!"
 
 #: templates/oscar/communication/emails/commtype_course_purchased_body.html:21
 #, python-format
@@ -2891,7 +2891,7 @@ msgid ""
 "You are receiving this email because you purchased a seat in the "
 "%(platform_name)s course %(course_title)s."
 msgstr ""
-"وصلتك رسالة البريد الالكتروني هذه نتيجة شرائك لمقعد في مساق %(course_title)s"
+"وصلتك رسالة البريد الالكتروني هذه نتيجة شرائك لمقعد في دورة %(course_title)s"
 " الذي تقدّمه %(platform_name)s."
 
 #: templates/oscar/communication/emails/commtype_course_purchased_body.txt:2
@@ -2940,7 +2940,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"نشكرك لاشتراكك وسداد قيمة الساعات %(credit_hours)s المعتمدة المقدّمة من قبل  %(credit_provider)s للمساق %(course_title)s. ستظهر التعرفة المبيّنة أدناه مرفقةً باسم المنصّة %(platform_name)s، ضمن البيان التفصيلي القادم لبطاقة الدائن/ المدين خاصّتك."
+"نشكرك لاشتراكك وسداد قيمة الساعات %(credit_hours)s المعتمدة المقدّمة من قبل  %(credit_provider)s للدورة %(course_title)s. ستظهر التعرفة المبيّنة أدناه مرفقةً باسم المنصّة %(platform_name)s، ضمن البيان التفصيلي القادم لبطاقة الدائن/ المدين خاصّتك."
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:8
@@ -2951,7 +2951,7 @@ msgid ""
 "%(credit_provider)s, or to see the status of your credit request, go to your"
 " %(platform_name)s dashboard."
 msgstr ""
-"للحصول على ساعة معتمدة لمساقك، يجب أن تطلب ساعة معتمدة من خلال موقع "
+"للحصول على ساعة معتمدة لدورةك، يجب أن تطلب ساعة معتمدة من خلال موقع "
 "%(credit_provider)s الإلكتروني أيضًا. للحصول على رابط لطلب ساعة معتمدة من "
 "%(credit_provider)s، أو لمعرفة حالة طلب الساعة المعتمدة الذي قدّمته، قم "
 "بزيارة لوحة المعلومات الرئيسية الخاصة بك من المنصّة %(platform_name)s."
@@ -2963,13 +2963,13 @@ msgid ""
 "To explore other credit-eligible courses, visit the %(platform_name)s "
 "website. We add new courses frequently!"
 msgstr ""
-"يُمكنك زيارة موقع %(platform_name)s الإلكتروني للاطلاع على مساقات أخرى "
-"تستوجب حضور المادّة المعتمدة. نحن نضيف مساقات جديدة باستمرار!"
+"يُمكنك زيارة موقع %(platform_name)s الإلكتروني للاطلاع على دورات أخرى "
+"تستوجب حضور المادّة المعتمدة. نحن نضيف دورات جديدة باستمرار!"
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:74
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:15
 msgid "Thank you. We hope you enjoyed your course!"
-msgstr "نشكر مشاركتك ونأمل أن تستمتع بالمساق!"
+msgstr "نشكر مشاركتك ونأمل أن تستمتع بالدورة!"
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:75
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:16
@@ -2985,7 +2985,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"لقد تلقيت هذه الرسالة لأنك قد اشتريت ساعات معتمدة لمساق %(course_title)s، وهو مساق مقدّم من المنصّة %(platform_name)s."
+"لقد تلقيت هذه الرسالة لأنك قد اشتريت ساعات معتمدة لدورة %(course_title)s، وهو دورة مقدّم من المنصّة %(platform_name)s."
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:2
 msgid "Payment confirmation for: "
@@ -2999,7 +2999,7 @@ msgid ""
 "credit or debit card statement with a company name of \"%(platform_name)s\"."
 msgstr ""
 "نشكرك لاشتراكك وسداد قيمة الساعات %(credit_hours)s المعتمدة المقدّمة من قبل "
-"%(credit_provider)s لمادة المساق %(course_title)s. ستظهر التعرفة المبيّنة "
+"%(credit_provider)s لمادة الدورة %(course_title)s. ستظهر التعرفة المبيّنة "
 "أدناه مرفقةً باسم المنصّة %(platform_name)s، ضمن البيان التفصيلي لبطاقة "
 "الدائن/ المدين خاصّتك."
 
@@ -3009,8 +3009,8 @@ msgid ""
 "You received this message because you purchased credit hours for "
 "%(course_title)s, an %(platform_name)s course."
 msgstr ""
-"لقد وصلتك هذه الرسالة لأنك قد اشتريت ساعات معتمدة لمساق %(course_title)s، "
-"وهو مساق مقدّم من المنصّة %(platform_name)s."
+"لقد وصلتك هذه الرسالة لأنك قد اشتريت ساعات معتمدة لدورة %(course_title)s، "
+"وهو دورة مقدّم من المنصّة %(platform_name)s."
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_subject.txt:2
 msgid "Order Receipt"
@@ -3053,7 +3053,7 @@ msgstr "نصيحة احترافية: تعقب الرمز المرتبط بالش
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:36
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:11
 msgid "Learners sign-in/register with edX and enroll for the course."
-msgstr "يقوم المتعلمون بتسجيل الدخول/التسجيل باستخدام edX والتسجيل في المساق."
+msgstr "يقوم المتعلمون بتسجيل الدخول/التسجيل باستخدام edX والتسجيل في الدورة."
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:39
 #, python-brace-format
@@ -3089,7 +3089,7 @@ msgstr "عند إتمام الطلب، فإنك توافق أنت ومؤسستك
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:20
 msgid ""
 "Each code is valid for the one course covered and can be used only one time."
-msgstr "كل رمز يشمل مساقًا واحدًا، ويمكن استخدامه مرة واحدة فقط."
+msgstr "كل رمز يشمل دورةًا واحدًا، ويمكن استخدامه مرة واحدة فقط."
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:64
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:21
@@ -3102,7 +3102,7 @@ msgid ""
 "Each code will expire in one year from date of purchase or, if earlier, once"
 " the course is closed."
 msgstr ""
-"ستنتهي صلاحية كل رمز خلال سنة من تاريخ الشراء أو عند إغلاق المساق -على "
+"ستنتهي صلاحية كل رمز خلال سنة من تاريخ الشراء أو عند إغلاق الدورة -على "
 "الأقرب."
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:66
@@ -3111,8 +3111,8 @@ msgid ""
 "If a course is not designated as self-paced, you should confirm that a "
 "course run is available before expiration."
 msgstr ""
-"إذا لم يتم ضبط إعداد المساق بنظام التعلم الذاتي، فيجب أن تتأكد من توفر مشغل "
-"المساق قبل انتهاء صلاحيته."
+"إذا لم يتم ضبط إعداد الدورة بنظام التعلم الذاتي، فيجب أن تتأكد من توفر مشغل "
+"الدورة قبل انتهاء صلاحيته."
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:67
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:24

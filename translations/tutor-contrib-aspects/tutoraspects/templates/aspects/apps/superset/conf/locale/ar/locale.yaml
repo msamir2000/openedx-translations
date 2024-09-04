@@ -25,7 +25,7 @@ en:
   Video Title: عنوان مقطع الفيديو
   Certified By: مصدقة من قبل
   Enrollments: "عمليات التسجيل "
-  Course Run: تشغيل المساق
+  Course Run: تشغيل الدورة
   Slice ID: معرف الشريحة
   Chart showing the number of Superset actions taken on each dashboard in the selected time period.: مخطط يوضح عدد إجراءات Superset المتخذة على كل لوحة معلومات في الفترة الزمنية المحددة.
   Last Login: آخر تسجيل دخول
@@ -120,7 +120,7 @@ en:
   Perm: موج الشعر بإستمرار
   Problem name: اسم المشكلة
   Location: الموقع
-  Course End: تاريخ انتهاء المساق
+  Course End: تاريخ انتهاء الدورة
   Verb ID: معرف الفعل
   Video Name With Location: اسم الفيديو مع الموقع
   Email: البريد الإلكتروني
@@ -130,7 +130,7 @@ en:
   xAPI Events Over Time v2: أحداث xAPI مع مرور الوقت v2
   Video Engagement: مشاركة الفيديو
   Enrollments By Enrollment Mode: التسجيلات عن طريق وضع التسجيل
-  Course Name: اسم المساق
+  Course Name: اسم الدورة
   Total Hints: إجمالي التلميحات
   Unique Viewers: المشاهدين الفريدين
   Actor Id: معرف الممثل
@@ -161,7 +161,7 @@ en:
   Time range: النطاق الزمني
   <div>Select a problem from the Filters panel to populate the charts.</div>: "<div style=\";text-align:right;direction:rtl\">حدد مشكلة من لوحة المرشحات لملء المخططات.</div>"
   Last Received Event: آخر حدث تم استلامه
-  Course Key: مفتاح المساق
+  Course Key: مفتاح الدورة
   unregistered: غير مسجل
   Most Active Courses Per Day: الدورات الأكثر نشاطا في اليوم الواحد
   Number of Users / Uses: عدد المستخدمين/الاستخدامات
@@ -192,8 +192,8 @@ en:
   Total Organizations: إجمالي المنظمات
   Video Id: معرف الفيديو
   User ID: رقم المستخدم
-  Course Start: تاريخ ابتداء المساق
-  Course ID: "رقم تعريف المساق "
+  Course Start: تاريخ ابتداء الدورة
+  Course ID: "رقم تعريف الدورة "
   Duration (Seconds): المدة (ثواني)
   Last Saved By Fk: تم الحفظ آخر مرة بواسطة Fk
   Enrollment Events Per Day: أحداث التسجيل في اليوم الواحد
@@ -218,7 +218,7 @@ en:
   Enrollment End: نهاية التسجيل
   Emission Time: وقت الانبعاث
   Goals: الأهداف
-  Courseware: محتويات المساق
+  Courseware: محتويات الدورة
   Most-used Dashboards: لوحات المعلومات الأكثر استخدامًا
   Question Title: عنوان السؤال
   Number Of Attempts To Find Correct Answer: عدد المحاولات للعثور على الإجابة الصحيحة
@@ -266,7 +266,7 @@ en:
     ever answered correctly. Students can answer some questions multiple times, but
     this chart counts each student only once per question.
   : عدد الطلاب الذين أجابوا على أحد الأسئلة، وما إذا كانوا قد أجابوا بشكل صحيح. يمكن للطلاب الإجابة على بعض الأسئلة عدة مرات، ولكن هذا المخطط يحسب كل طالب مرة واحدة فقط لكل سؤال.
-  Courses: المساقات
+  Courses: الدورات
   Value: القيمة
   Created By Fk: تم إنشاؤها بواسطة Fk
   Viz Type: نوع بمعنى

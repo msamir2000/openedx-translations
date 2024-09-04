@@ -217,7 +217,7 @@ msgstr "لقد سلمت امتحانك التحضيري."
 
 #: static/proctoring/js/views/proctored_exam_info.js:35
 msgid "Your onboarding exam has been approved in this course."
-msgstr "تم اعتماد امتحانك التحضيري في هذا المساق."
+msgstr "تم اعتماد امتحانك التحضيري في هذه الدورة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:39
 msgid "Your onboarding exam has been rejected. Please retry onboarding."
@@ -232,11 +232,11 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr "معتمد من مساق آخر"
+msgstr "معتمد من دورة آخر"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
-msgstr "تم اعتماد امتحانك التحضيري من مساق آخر."
+msgstr "تم اعتماد امتحانك التحضيري من دورة آخر."
 
 #: static/proctoring/js/views/proctored_exam_info.js:49
 msgid ""
@@ -244,7 +244,7 @@ msgid ""
 "onboarding exam in order to ensure that your setup still meets the "
 "requirements for proctoring."
 msgstr ""
-"إن تغير جهازك، فإننا نصحك بإكمال الامتحان التحضيري لهذا المساق، و ذلك للتأكد"
+"إن تغير جهازك، فإننا نصحك بإكمال الامتحان التحضيري لهذه الدورة، و ذلك للتأكد"
 " من أن إعداداتك لا تزال تستوفي متطلبات المراقبة."
 
 #: static/proctoring/js/views/proctored_exam_info.js:55

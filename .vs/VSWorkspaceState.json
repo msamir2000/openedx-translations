@@ -2,12 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\translations",
-    "\\translations\\edx-platform",
-    "\\translations\\edx-platform\\conf",
-    "\\translations\\edx-platform\\conf\\locale",
-    "\\translations\\edx-platform\\conf\\locale\\ar",
-    "\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES"
+    "\\translations\\frontend-app-discussions\\src",
+    "\\translations\\frontend-app-discussions\\src\\i18n",
+    "\\translations\\frontend-app-discussions\\src\\i18n\\messages",
+    "\\translations\\frontend-app-learning\\src",
+    "\\translations\\frontend-app-learning\\src\\i18n",
+    "\\translations\\frontend-app-learning\\src\\i18n\\messages",
+    "\\translations\\paragon\\src",
+    "\\translations\\paragon\\src\\i18n",
+    "\\translations\\paragon\\src\\i18n\\messages"
   ],
-  "SelectedNode": "\\translations\\edx-platform\\conf\\locale\\ar\\LC_MESSAGES\\django.po",
+  "SelectedNode": "\\translations\\frontend-app-learning",
   "PreviewInSolutionExplorer": false
 }

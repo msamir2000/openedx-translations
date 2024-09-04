@@ -60,7 +60,7 @@ msgstr "اللغة التي يتم تعليم الدورة بها"
 
 #: apps/api/serializers.py:1112
 msgid "Course cannot be changed for an existing course run"
-msgstr "لا يمكن تغيير المساق لمشغّل مساق حالي"
+msgstr "لا يمكن تغيير الدورة لمشغّل دورة حالي"
 
 #: apps/api/serializers.py:1117
 msgid "Minimum effort cannot be greater than Maximum effort"
@@ -97,7 +97,7 @@ msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
 "All other fields were successfully saved in Studio."
 msgstr ""
-"حدث خطأ أثناء ضبط صورة تشغيل المساق لـ [{key}] في الاستوديو. تم حفظ كافة "
+"حدث خطأ أثناء ضبط صورة تشغيل الدورة لـ [{key}] في الاستوديو. تم حفظ كافة "
 "الحقول الأخرى بنجاح في الاستوديو."
 
 #: apps/api/v1/exceptions.py:13
@@ -119,7 +119,7 @@ msgstr "تم إرسال بيانات غير صحيحة."
 
 #: apps/api/v1/views/course_runs.py:46
 msgid "Failed to set course run data: {}"
-msgstr "فشل ضبط بيانات تشغيل المساق: {}"
+msgstr "فشل ضبط بيانات تشغيل الدورة: {}"
 
 #: apps/api/v1/views/course_runs.py:313
 msgid "Can only update status, ofac restrictions, and ofac comment"
@@ -127,7 +127,7 @@ msgstr "يمكن فقط تحديث حالة وفك قيود مكتب مراقب�
 
 #: apps/api/v1/views/course_runs.py:352
 msgid "Course run is in review. Editing disabled."
-msgstr "مشغل المساق تحت المراجعة، تم تعطيل خاصية التحرير."
+msgstr "مشغل الدورة تحت المراجعة، تم تعطيل خاصية التحرير."
 
 #: apps/api/v1/views/course_runs.py:359
 msgid "Invalid parameter"
@@ -163,7 +163,7 @@ msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
 "already in use. Please update this field and try again."
 msgstr ""
-"فشلت عملية إنشاء المساق، ولكن مازال رابط المساق قيد الاستخدام ‘[{url_slug}]’"
+"فشلت عملية إنشاء الدورة، ولكن مازال رابط الدورة قيد الاستخدام ‘[{url_slug}]’"
 " يرجى تحديث هذا الحقل وإعادة المحاولة مرة أخرى."
 
 #: apps/api/v1/views/courses.py:284
@@ -180,7 +180,7 @@ msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
 "in use. Please update this field and try again."
 msgstr ""
-"فشلت عملية تحرير المساق، وما زال العنوان المختصر ‘[{url_slug}]’ لرابط المساق"
+"فشلت عملية تحرير الدورة، وما زال العنوان المختصر ‘[{url_slug}]’ لرابط الدورة"
 " قيد الاستخدام، يرجى تحديث الحقل وإعادة المحاولة مرة أخرى."
 
 #: apps/api/views.py:58
@@ -193,7 +193,7 @@ msgstr "اسم الكتالوج"
 
 #: apps/catalogs/models.py:18
 msgid "Query to retrieve Course Run catalog contents"
-msgstr "استعلام لاستعادة محتويات دليل تشغيل المساق"
+msgstr "استعلام لاستعادة محتويات دليل تشغيل الدورة"
 
 #: apps/catalogs/models.py:22
 msgid "Query to retrieve Program catalog contents"
@@ -201,7 +201,7 @@ msgstr "استعلام لاستعادة محتويات دليل البرنامج
 
 #: apps/catalogs/models.py:25
 msgid "Include archived courses"
-msgstr "تضمين المساقات المؤرشفة."
+msgstr "تضمين الدورات المؤرشفة."
 
 #: apps/core/admin.py:17
 msgid "Personal info"
@@ -289,7 +289,7 @@ msgstr "رابط واجهة برمجة التطبيقات للدورات"
 
 #: apps/core/models.py:59
 msgid "Course Mode API URL"
-msgstr "رابط واجهة برمجة التطبيقات لوضع المساق"
+msgstr "رابط واجهة برمجة التطبيقات لوضع الدورة"
 
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
@@ -422,7 +422,7 @@ msgstr "تحرير الرابط"
 
 #: apps/course_metadata/admin.py:726
 msgid "Edit course run exclusions"
-msgstr "تحرير تضمينات مشغل المساق"
+msgstr "تحرير تضمينات مشغل الدورة"
 
 #: apps/course_metadata/admin.py:728
 msgid "(save and continue editing to create a link)"
@@ -494,13 +494,13 @@ msgstr "تم النشر"
 #. similar to a normal university course.
 #: apps/course_metadata/choices.py:24
 msgid "Instructor-paced"
-msgstr "مساق غير دائم"
+msgstr "دورة غير دائم"
 
 #. Translators: Self-paced refers to course runs that operate on the student's
 #. schedule.
 #: apps/course_metadata/choices.py:26
 msgid "Self-paced"
-msgstr "مساق دائم"
+msgstr "دورة دائم"
 
 #: apps/course_metadata/choices.py:31 apps/learner_pathway/choices.py:6
 msgid "Active"
@@ -607,7 +607,7 @@ msgstr "دورة المكدس"
 msgid ""
 "Existing course type {type} for {key} ({id}) doesn't match its own "
 "entitlements."
-msgstr "لا يتفق نوع المساق الحالي {type}لـ {key} ({id}) مع امتيازاته"
+msgstr "لا يتفق نوع الدورة الحالي {type}لـ {key} ({id}) مع امتيازاته"
 
 #: apps/course_metadata/data_loaders/course_type.py:61
 #, python-brace-format
@@ -615,7 +615,7 @@ msgid ""
 "Existing run type {run_type} for {key} ({id}) doesn't match course type "
 "{type}.Skipping type."
 msgstr ""
-"نوع المشغل الحالي {run_type} لـ{key} ({id}) لا يتفق مع نوع المساق  {type}. "
+"نوع المشغل الحالي {run_type} لـ{key} ({id}) لا يتفق مع نوع الدورة  {type}. "
 "تخطي النوع."
 
 #: apps/course_metadata/data_loaders/course_type.py:75
@@ -627,12 +627,12 @@ msgstr "لا يتفق نوع المشغل {run_type}لـ {key} ({id}) مع ال�
 #: apps/course_metadata/data_loaders/course_type.py:91
 #, python-brace-format
 msgid "Course {key} ({id}) matched type {type}"
-msgstr "نوع المساق المتوافق  {key} ({id}) {type}"
+msgstr "نوع الدورة المتوافق  {key} ({id}) {type}"
 
 #: apps/course_metadata/data_loaders/course_type.py:101
 #, python-brace-format
 msgid "Could not convert course {key} ({id}) to type {type}"
-msgstr "تعذّر تغيير نوع المساق {key} ({id}) إلى {type}"
+msgstr "تعذّر تغيير نوع الدورة {key} ({id}) إلى {type}"
 
 #: apps/course_metadata/emails.py:36
 #, python-brace-format
@@ -641,7 +641,7 @@ msgid ""
 "organization is defined for course {course}"
 msgstr ""
 "عدم إرسال بريد إلكتروني للتنبيه بالنموذج {template} بسبب عدم وجود مؤسسة "
-"محددة للمساق {course}"
+"محددة للدورة {course}"
 
 #: apps/course_metadata/emails.py:41
 #, python-brace-format
@@ -680,7 +680,7 @@ msgstr "فريق منسق المشروع"
 
 #: apps/course_metadata/emails.py:211
 msgid "course team"
-msgstr "فريق المساق"
+msgstr "فريق الدورة"
 
 #: apps/course_metadata/emails.py:220
 #, python-brace-format
@@ -732,11 +732,11 @@ msgstr "لا يمكن تفعيل البرامج إلا إذا كان لديها 
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:15
 msgid "Tag to add to courses"
-msgstr "ضع علامة لإضافتها إلى المساقات"
+msgstr "ضع علامة لإضافتها إلى الدورات"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:16
 msgid "UUIDs of courses to tag"
-msgstr "UUIDs المساقات لوضع علامة"
+msgstr "UUIDs الدورات لوضع علامة"
 
 #: apps/course_metadata/management/commands/add_tag_to_courses.py:18
 msgid ""
@@ -775,7 +775,7 @@ msgstr "معرف فريد عالمي \"UUID\""
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:22
 msgid "Course to backpopulate."
-msgstr "المساق المطلوب إعادة تفحصه."
+msgstr "الدورة المطلوب إعادة تفحصه."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
@@ -812,27 +812,27 @@ msgstr "عليك أن تحدد --شريكًا"
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:71
 #, python-brace-format
 msgid "Supplied Course Run Type slug [{rt_slug}] does not exist."
-msgstr "علامة نوع تشغيل المساق المدعمة [{rt_slug}] غير موجودة."
+msgstr "علامة نوع تشغيل الدورة المدعمة [{rt_slug}] غير موجودة."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:78
 #, python-brace-format
 msgid "Supplied Course Type slug [{ct_slug}] does not exist."
-msgstr "علامة نوع تشغيل المساق المدعمة [{ct_slug}] غير موجودة."
+msgstr "علامة نوع تشغيل الدورة المدعمة [{ct_slug}] غير موجودة."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:89
 msgid "No courses found. Did you specify an argument?"
-msgstr "لم يتم العثور على المساق. هل حدد وسيطة؟"
+msgstr "لم يتم العثور على الدورة. هل حدد وسيطة؟"
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:101
 #, python-brace-format
 msgid ""
 "Could not backpopulate a course type for the following courses: "
 "{course_keys}"
-msgstr "تعذر نشر نوع المساق للمساقات التالية: {course_keys}"
+msgstr "تعذر نشر نوع الدورة للدورات التالية: {course_keys}"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:21
 msgid "Delete duplicate persons in course_metadata."
-msgstr "حذف الأشخاص المكررين في بيانات تعريف_المساق"
+msgstr "حذف الأشخاص المكررين في بيانات تعريف_الدورة"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:26
 msgid "PERSON"
@@ -899,7 +899,7 @@ msgstr "يجب أن تحدد شخصًا واحدًا على الأقل"
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
-msgstr "نشر عرض المساق {key}"
+msgstr "نشر عرض الدورة {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:28
 #, python-brace-format
@@ -913,11 +913,11 @@ msgstr "تم النشر بنجاح {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:34
 msgid "One or more course runs failed to publish."
-msgstr "فشلت عملية نشر مشغّل أو أكثر من مشغلات المساق "
+msgstr "فشلت عملية نشر مشغّل أو أكثر من مشغلات الدورة "
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
 msgid "Remove all redirects to all courses"
-msgstr "إزالة عمليات إعادة التوجيه لجميع المساقات"
+msgstr "إزالة عمليات إعادة التوجيه لجميع الدورات"
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:23
 msgid "Redirects to remove"
@@ -941,7 +941,7 @@ msgstr "لايمكن إزالة url_slug {url_slug}الفعال"
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:60
 #, python-brace-format
 msgid "Path /course/{url_slug} not in use, nothing to delete"
-msgstr "المسار / المساق/ {url_slug} غير مستخدم، لايوجد ما يجب حذفه"
+msgstr "المسار / الدورة/ {url_slug} غير مستخدم، لايوجد ما يجب حذفه"
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:65
 #, python-brace-format
@@ -950,17 +950,17 @@ msgstr "المسار {url_path}  غير مستخدم، لايوجد ما يجب
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:42
 msgid "One or more courses failed to unpublish."
-msgstr "فشلت عملية إلغاء نشر مشغّل أو أكثر من مشغلات المساق "
+msgstr "فشلت عملية إلغاء نشر مشغّل أو أكثر من مشغلات الدورة "
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:48
 #, python-brace-format
 msgid "Successfully unpublished runs in course {key}"
-msgstr "نجحت عملية إلغاء نشر المشغلات في مساق {key}"
+msgstr "نجحت عملية إلغاء نشر المشغلات في دورة {key}"
 
 #: apps/course_metadata/management/commands/unpublish_inactive_runs.py:51
 #, python-brace-format
 msgid "Failed to unpublish runs in course {key}"
-msgstr "فشلت عملية إلغاء نشر المشغلات في مساق {key}"
+msgstr "فشلت عملية إلغاء نشر المشغلات في دورة {key}"
 
 #: apps/course_metadata/models.py:234
 msgid ""
@@ -968,7 +968,7 @@ msgid ""
 "underscore or hyphen. This key will be used in the course's course key."
 msgstr ""
 "يرجى عدم استخدام أي مسافات أو أحرف الحلات الخاصة غير النقطة أو الشرطة "
-"السفلية أو الواصلة. سيتم استخدام هذا المفتاح في مفتاح المساق."
+"السفلية أو الواصلة. سيتم استخدام هذا المفتاح في مفتاح الدورة."
 
 #: apps/course_metadata/models.py:239
 msgid "If populated, this field will overwrite name in platform."
@@ -995,14 +995,14 @@ msgstr ""
 
 #: apps/course_metadata/models.py:274
 msgid "Automatically generate course run keys"
-msgstr "إنشاء مفاتيح تشغيل المساق تلقائيًا"
+msgstr "إنشاء مفاتيح تشغيل الدورة تلقائيًا"
 
 #: apps/course_metadata/models.py:276
 msgid ""
 "When this flag is enabled, the key of a new course run will be auto "
 "generated.  When this flag is disabled, the key can be manually set."
 msgstr ""
-"عند تمكين هذه العلامة، سيتم إنشاء مفتاح سلسلة مساق جديدة تلقائيًا. عند تعطيل"
+"عند تمكين هذه العلامة، سيتم إنشاء مفتاح سلسلة دورة جديدة تلقائيًا. عند تعطيل"
 " هذه العلامة، يمكن ضبط المفتاح يدويًا."
 
 #: apps/course_metadata/models.py:282
@@ -1101,11 +1101,11 @@ msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
 msgstr ""
-"من يحصل على أجر مقابل المساق؟ المنصة هي مالك الموقع، المؤسسة هي المدرسة"
+"من يحصل على أجر مقابل الدورة؟ المنصة هي مالك الموقع، المؤسسة هي المدرسة"
 
 #: apps/course_metadata/models.py:674
 msgid "Sets the order for displaying Course Run Types."
-msgstr "لضبط ترتيب عرض أنواع تشغيل المساق."
+msgstr "لضبط ترتيب عرض أنواع تشغيل الدورة."
 
 #: apps/course_metadata/models.py:677
 msgid ""
@@ -1113,7 +1113,7 @@ msgid ""
 "this course type in Publisher."
 msgstr ""
 "اترك هذا الحقل فارغاً للسماح لكل المؤسسات أو حدد أي نوع من المؤسسات يمكنها "
-"رؤية هذا النوع من المساق في الناشر."
+"رؤية هذا النوع من الدورة في الناشر."
 
 #: apps/course_metadata/models.py:727
 msgid "Subject model translations"
@@ -1252,7 +1252,7 @@ msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
 msgstr ""
-"عند إعادة تشغيل هذا المساق، سيستخدمون هذا المفتاح بدلاً من مفتاح المساق."
+"عند إعادة تشغيل هذا الدورة، سيستخدمون هذا المفتاح بدلاً من مفتاح الدورة."
 
 #: apps/course_metadata/models.py:1331
 msgid ""
@@ -1262,7 +1262,7 @@ msgstr "المدة الفعلية لهذه الدورة كما يختبرها ا
 
 #: apps/course_metadata/models.py:1352
 msgid "Add the course image"
-msgstr "إضافة صورة المساق"
+msgstr "إضافة صورة الدورة"
 
 #: apps/course_metadata/models.py:1355 apps/course_metadata/models.py:3096
 msgid "FAQ"
@@ -1270,13 +1270,13 @@ msgstr "سؤال شائع"
 
 #: apps/course_metadata/models.py:1358
 msgid "Total number of learners who have enrolled in this course"
-msgstr "مجموع عدد المتعلمين الملتحقين بهذا المساق."
+msgstr "مجموع عدد المتعلمين الملتحقين بهذا الدورة."
 
 #: apps/course_metadata/models.py:1363
 msgid ""
 "Total number of learners who have enrolled in this course in the last 6 "
 "months"
-msgstr "مجموع عدد المتعلمين الملتحقين بهذا المساق خلال الأشهر الستة الماضية."
+msgstr "مجموع عدد المتعلمين الملتحقين بهذا الدورة خلال الأشهر الستة الماضية."
 
 #: apps/course_metadata/models.py:1377
 msgid "Course number format e.g CS002x, BIO1.1x, BIO1.2x"
@@ -1382,14 +1382,14 @@ msgstr "تقدير عدد الأسابيع اللازم لإكمال تشغيل 
 
 #: apps/course_metadata/models.py:2141
 msgid "Total number of learners who have enrolled in this course run"
-msgstr "مجموع عدد المتعلمين الملتحقين بمشغل المساق هذا"
+msgstr "مجموع عدد المتعلمين الملتحقين بمشغل الدورة هذا"
 
 #: apps/course_metadata/models.py:2145
 msgid ""
 "Total number of learners who have enrolled in this course run in the last 6 "
 "months"
 msgstr ""
-"مجموع عدد المتعلمين الملتحقين بمشغل المساق هذا خلال الأشهر الستة الماضية."
+"مجموع عدد المتعلمين الملتحقين بمشغل الدورة هذا خلال الأشهر الستة الماضية."
 
 #: apps/course_metadata/models.py:2158
 msgid ""
@@ -1398,8 +1398,8 @@ msgid ""
 " in Studio via Refresh Course Metadata."
 msgstr ""
 "ما إذا كان يجب إخفاء هذا التشغيل من استجابات واجهة برمجة التطبيقات. لا تقم "
-"بالتحرير هنا - ستتم الكتابة فوق هذه القيمة بواسطة حقل \"رؤية المساق في "
-"الدليل\" في الاستوديو عبر تحديث بيانات تعريف المساق."
+"بالتحرير هنا - ستتم الكتابة فوق هذه القيمة بواسطة حقل \"رؤية الدورة في "
+"الدليل\" في الاستوديو عبر تحديث بيانات تعريف الدورة."
 
 #: apps/course_metadata/models.py:2164
 msgid "Indicates whether the course relation has been manually overridden."
@@ -1410,8 +1410,8 @@ msgid ""
 "'What You Will Learn' description for this particular course run. Leave this"
 " value blank to default to the parent course's Outcome attribute."
 msgstr ""
-"وصف \"ما الذي ستتعلمه\" لهذا المساق المعين. اترك هذه القيمة فارغة كتعيين "
-"افتراضي للحصول على مرئيات الوالدين حول مخرجات المساق. "
+"وصف \"ما الذي ستتعلمه\" لهذا الدورة المعين. اترك هذه القيمة فارغة كتعيين "
+"افتراضي للحصول على مرئيات الوالدين حول مخرجات الدورة. "
 
 #: apps/course_metadata/models.py:2184 apps/course_metadata/models.py:3291
 msgid "Add OFAC restriction text to the FAQ section of the Marketing site"
@@ -1513,7 +1513,7 @@ msgid ""
 msgstr ""
 "يمكن استخدام هذا الحقل بواسطة عملاء واجهة برمج التطبيقات لتحديد الترتيب الذي"
 " سيتم عرض المعلمين به على صفحات البرنامج. يجب أن يظهر المعلمون في هذه "
-"القائمة قبل تشغيل كافة المساقات الأخرى المرتبطة بهذه البرامج"
+"القائمة قبل تشغيل كافة الدورات الأخرى المرتبطة بهذه البرامج"
 
 #: apps/course_metadata/models.py:3190
 msgid "The description of credit redemption for courses in program"
@@ -1521,7 +1521,7 @@ msgstr "وصف استرداد المبلغ للدورات التعليمية ف�
 
 #: apps/course_metadata/models.py:3195
 msgid "Allow courses in this program to be purchased in a single transaction"
-msgstr "السماح بشراء المساقات في هذا البرنامج بمعاملة واحدة"
+msgstr "السماح بشراء الدورات في هذا البرنامج بمعاملة واحدة"
 
 #: apps/course_metadata/models.py:3199
 msgid ""
@@ -1533,14 +1533,14 @@ msgstr ""
 
 #: apps/course_metadata/models.py:3202
 msgid "Total number of learners who have enrolled in courses this program"
-msgstr "مجموع عدد المتعلمين الملتحقين بمساقات هذا البرنامج."
+msgstr "مجموع عدد المتعلمين الملتحقين بدورات هذا البرنامج."
 
 #: apps/course_metadata/models.py:3207
 msgid ""
 "Total number of learners who have enrolled in courses in this program in the"
 " last 6 months"
 msgstr ""
-"مجموع عدد المتعلمين الملتحقين بمساقات هذا البرنامج خلال الأشهر الستة "
+"مجموع عدد المتعلمين الملتحقين بدورات هذا البرنامج خلال الأشهر الستة "
 "الماضية."
 
 #: apps/course_metadata/models.py:3212
@@ -1706,7 +1706,7 @@ msgstr "عرض التكلفة لبطاقة البحث (على سبيل المث�
 
 #: apps/course_metadata/models.py:3888
 msgid "Number of courses for search card (e.g. \"11 Courses\""
-msgstr "عدد المساقات لبطاقة البحث (على سبيل المثال \"11 مساق\""
+msgstr "عدد الدورات لبطاقة البحث (على سبيل المثال \"11 دورة\""
 
 #: apps/course_metadata/models.py:3896
 msgid ""
@@ -1812,13 +1812,13 @@ msgid ""
 "            text is the first 750 characters of \"marketing_text\" and must be\n"
 "            valid HTML."
 msgstr ""
-"نظرة عامة متفحصة لمواد المساقات للدرجة. The \"موجزة\"\n"
+"نظرة عامة متفحصة لمواد الدورات للدرجة. The \"موجزة\"\n"
 "النص هو أول 750 حرفًا من \"marketing_text\" ويجب أن يكون \n"
 "HTML صالح."
 
 #: apps/course_metadata/models.py:4062
 msgid "A high-level overview of the degree's courseware."
-msgstr "معاينة متفحصة لأدوات مساق الدرجة."
+msgstr "معاينة متفحصة لأدوات دورة الدرجة."
 
 #: apps/course_metadata/models.py:4138
 msgid "Organization name"
@@ -1850,7 +1850,7 @@ msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url slug {url_slug}"
 msgstr ""
-"لا يتطابق الشريك {partner_key} وشريك المساق {course_partner_key} عند محاولة "
+"لا يتطابق الشريك {partner_key} وشريك الدورة {course_partner_key} عند محاولة "
 "حفظ عنوان رابط الشارة {url_slug}"
 
 #: apps/course_metadata/models.py:4270
@@ -1859,7 +1859,7 @@ msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url redirect {url_path}"
 msgstr ""
-"لا يتطابق الشريك {partner_key} وشريك المساق {course_partner_key} عند محاولة "
+"لا يتطابق الشريك {partner_key} وشريك الدورة {course_partner_key} عند محاولة "
 "حفظ عنوان رابط إعادة التوجيه {url_path}"
 
 #: apps/course_metadata/models.py:4291
@@ -1891,11 +1891,11 @@ msgstr "المعسكرات التدريبية"
 
 #: apps/course_metadata/models.py:4386 apps/course_metadata/models.py:4490
 msgid "Course UUIDs"
-msgstr "معرّف هوية المستخدم العالمي للمساق"
+msgstr "معرّف هوية المستخدم العالمي للدورة"
 
 #: apps/course_metadata/models.py:4466
 msgid "Course Run IDs"
-msgstr "معرّفات مشغل المساق"
+msgstr "معرّفات مشغل الدورة"
 
 #: apps/course_metadata/models.py:4482
 msgid "Profile Image UUIDs"
@@ -1916,11 +1916,11 @@ msgstr "مسارات الرابط"
 #: apps/course_metadata/models.py:4514
 msgid "Add redirects from all published course url slugs"
 msgstr ""
-"إضافة عمليات إعادة التوجيه من كافة شارات عناوين روابط المساقات المنشورة"
+"إضافة عمليات إعادة التوجيه من كافة شارات عناوين روابط الدورات المنشورة"
 
 #: apps/course_metadata/models.py:4515 apps/taxonomy_support/models.py:55
 msgid "Course uuids"
-msgstr "معرّف هوية المستخدم العالمي للمساق"
+msgstr "معرّف هوية المستخدم العالمي للدورة"
 
 #: apps/course_metadata/salesforce.py:78
 msgid "Attempted to query Salesforce with no client for partner={}"
@@ -2049,7 +2049,7 @@ msgid ""
 "Publisher{link_end} to review the changes and mark it as reviewed."
 msgstr ""
 "قام {org_name} بتقديم {course_key} للمراجعة. "
-"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا المساق في صفحة "
+"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا الدورة في صفحة "
 "{link_end} لمراجعة التغييرات ووضع علامة تمت المراجعة عليها."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:20
@@ -2058,7 +2058,7 @@ msgid ""
 "This is a good time to {link_start}{studio_url}{link_middle}review this "
 "course run in Studio{link_end}."
 msgstr ""
-"هذا وقت جيد لـ {link_start}{studio_url}{link_middle}مراجعة تشغيل هذا المساق "
+"هذا وقت جيد لـ {link_start}{studio_url}{link_middle}مراجعة تشغيل هذا الدورة "
 "في Studio{link_end}."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.html:27
@@ -2067,8 +2067,8 @@ msgid ""
 "Visit the {link_start}{restricted_admin_url}{link_middle}restricted course "
 "admin page{link_end} to set embargo rules for this course, as needed."
 msgstr ""
-"قم بزيارة {link_start}{restricted_admin_url}{link_middle}صفحة مسؤول المساق "
-"المقيدة{link_end} لتعيين قواعد الحظر لهذا المساق حسب الحاجة."
+"قم بزيارة {link_start}{restricted_admin_url}{link_middle}صفحة مسؤول الدورة "
+"المقيدة{link_end} لتعيين قواعد الحظر لهذا الدورة حسب الحاجة."
 
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:6
 #, python-format
@@ -2088,7 +2088,7 @@ msgstr "صفحة ستوديو: %(studio_url)s"
 #: apps/course_metadata/templates/course_metadata/email/internal_review.txt:19
 #, python-format
 msgid "Restricted Course admin: %(restricted_admin_url)s"
-msgstr "إدارة المساق المقيدة: %(restricted_admin_url)s"
+msgstr "إدارة الدورة المقيدة: %(restricted_admin_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.html:15
 #, python-brace-format
@@ -2098,7 +2098,7 @@ msgid ""
 "Publisher{link_end} to determine OFAC status."
 msgstr ""
 "قام {org_name} بتقديم {course_name} للمراجعة. "
-"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا المساق في صفحة "
+"{link_start}{course_page_url}{link_middle}عرض تشغيل هذا الدورة في صفحة "
 "الناشر {link_end} لتحديد حالة OFAC."
 
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:6
@@ -2109,7 +2109,7 @@ msgstr "قامت %(org_name)sبإرسال %(course_name)sلغرض المراجع
 #: apps/course_metadata/templates/course_metadata/email/legal_review.txt:11
 msgid "View this course run in Publisher above to determine OFAC status."
 msgstr ""
-"اعرض تشغيل هذا المساق في صفحة الناشر أعلاه لتحديد حالة مكتب مراقبة الأصول "
+"اعرض تشغيل هذا الدورة في صفحة الناشر أعلاه لتحديد حالة مكتب مراقبة الأصول "
 "الأجنبية OFAC."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:15
@@ -2130,13 +2130,13 @@ msgid ""
 "The course run about page will be published on %(go_live_date)s, pending no "
 "further edits."
 msgstr ""
-"سيتم نشر صفحة تشغيل المساق على%(go_live_date)s، بانتظار عدم إجراء أي تعديلات"
+"سيتم نشر صفحة تشغيل الدورة على%(go_live_date)s، بانتظار عدم إجراء أي تعديلات"
 " إضافية."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
 msgid "The course run about page is now published."
-msgstr "يتم الآن نشر صفحة تشغيل المساق."
+msgstr "يتم الآن نشر صفحة تشغيل الدورة."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
 #, python-format
@@ -2144,13 +2144,13 @@ msgid ""
 "The %(course_run_number)s course run of %(course_name)s has been reviewed "
 "and approved by %(platform_name)s."
 msgstr ""
-"تمت مراجعة واعتماد %(course_run_number)sمشغل مساق لـ%(course_name)sمن قبل "
+"تمت مراجعة واعتماد %(course_run_number)sمشغل دورة لـ%(course_name)sمن قبل "
 "%(platform_name)s."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
 #, python-format
 msgid "View the course run in Publisher: %(course_page_url)s"
-msgstr "عرض المساق في صفحة الناشر: %(course_page_url)s"
+msgstr "عرض الدورة في صفحة الناشر: %(course_page_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:8
 #, python-format
@@ -2195,7 +2195,7 @@ msgstr ""
 
 #: apps/course_metadata/utils.py:380
 msgid "Special characters not allowed in Course Number."
-msgstr "لا يسمح بحالة الأحرف الخاصة في رقم المساق."
+msgstr "لا يسمح بحالة الأحرف الخاصة في رقم الدورة."
 
 #: apps/course_metadata/validators.py:30
 #, python-brace-format
@@ -2218,7 +2218,7 @@ msgstr "سمة {0} غير مسموح بها على العلامة {1}"
 
 #: apps/course_metadata/views.py:38
 msgid "Update excluded course runs"
-msgstr "تحديث المساقات المستبعدة"
+msgstr "تحديث الدورات المستبعدة"
 
 #: apps/course_metadata/views.py:45
 msgid "The program was changed successfully."

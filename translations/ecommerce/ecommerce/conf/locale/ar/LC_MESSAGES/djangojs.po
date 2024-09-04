@@ -50,7 +50,7 @@ msgstr "نطاق البريد الإلكتروني {%s} غير صالح."
 
 #: static/js/models/coupon_model.js:98
 msgid "Must occur after start date"
-msgstr "يجب حدوثه بعد تاريخ ابتداء المساق"
+msgstr "يجب حدوثه بعد تاريخ ابتداء الدورة"
 
 #: static/js/models/coupon_model.js:128
 msgid "Max uses for multi-use coupons must be higher than 2."
@@ -58,11 +58,11 @@ msgstr "يجب أن يكون الحد الأقصى لاستخدام القسائ
 
 #: static/js/models/coupon_model.js:152
 msgid "Must occur before end date"
-msgstr "يجب حدوثه قبل تاريخ انتهاء المساق"
+msgstr "يجب حدوثه قبل تاريخ انتهاء الدورة"
 
 #: static/js/models/coupon_model.js:174
 msgid "A valid course ID is required"
-msgstr "الرقم التعريفي الصحيح للمساق مطلوب"
+msgstr "الرقم التعريفي الصحيح للدورة مطلوب"
 
 #: static/js/models/coupon_model.js:188
 msgid "A valid Program UUID is required."
@@ -70,7 +70,7 @@ msgstr "مطلوب معرف برنامج UUID صحيح."
 
 #: static/js/models/course_model.js:54
 msgid "You must select a course type."
-msgstr "يجب أن تختار نوع المساق."
+msgstr "يجب أن تختار نوع الدورة."
 
 #: static/js/models/course_model.js:60
 msgid "You must choose if an honor seat should be created."
@@ -89,15 +89,15 @@ msgstr "فشلت عملية مصادقة المنتج"
 #: static/js/models/course_model.js:94
 #: static/js/views/dynamic_catalog_view.js:70
 msgid "Course ID"
-msgstr "رقم تعريف المساق "
+msgstr "رقم تعريف الدورة "
 
 #: static/js/models/course_model.js:95
 msgid "Course Name"
-msgstr "اسم المساق"
+msgstr "اسم الدورة"
 
 #: static/js/models/course_model.js:96 static/js/views/course_list_view.js:77
 msgid "Course Type"
-msgstr "نوع المساق"
+msgstr "نوع الدورة"
 
 #: static/js/models/course_model.js:97
 msgid "Verification Deadline"
@@ -109,7 +109,7 @@ msgstr "شمل مقعد الشرف"
 
 #: static/js/models/course_seats/course_seat.js:28
 msgid "All course seats must have a price."
-msgstr "يجب أن يكون لجميع مقاعد المساق سعر."
+msgstr "يجب أن يكون لجميع مقاعد الدورة سعر."
 
 #: static/js/models/course_seats/course_seat.js:45
 msgid "Verified seats must have an upgrade deadline."
@@ -235,19 +235,19 @@ msgstr "رموز القسائم"
 
 #: static/js/pages/course_create_page.js:12
 msgid "Create New Course"
-msgstr "إنشاء مساق جديد"
+msgstr "إنشاء دورة جديد"
 
 #: static/js/pages/course_detail_page.js:13
 msgid "View Course"
-msgstr "استعرض المساق "
+msgstr "استعرض الدورة "
 
 #: static/js/pages/course_edit_page.js:13
 msgid "Edit Course"
-msgstr "تعديل المساق"
+msgstr "تعديل الدورة"
 
 #: static/js/pages/course_list_page.js:10
 msgid "Courses"
-msgstr "المساقات"
+msgstr "الدورات"
 
 #: static/js/pages/enterprise_coupon_list_page.js:10
 msgid "Enterprise Coupon Codes"
@@ -394,7 +394,7 @@ msgstr "مجاني (مستمع)"
 
 #: static/js/views/course_form_view.js:56
 msgid "Free audit track. No certificate."
-msgstr "مساق استماع مجاني. لا تُمنح شهادة."
+msgstr "دورة استماع مجاني. لا تُمنح شهادة."
 
 #: static/js/views/course_form_view.js:60
 msgid "Verified and Audit"
@@ -436,21 +436,21 @@ msgstr ""
 #. them.
 #: static/js/views/course_list_view.js:57
 msgid "Displaying _START_ to _END_ of _TOTAL_ courses"
-msgstr "عرض _START_ to _END_ of _TOTAL_ المساقات"
+msgstr "عرض _START_ to _END_ of _TOTAL_ الدورات"
 
 #. Translators: _MAX_ is a placeholder. Do NOT translate it.
 #: static/js/views/course_list_view.js:60
 msgid "(filtered from _MAX_ total courses)"
-msgstr "(مرشّح من _MAX_ إجمالي المساقات)"
+msgstr "(مرشّح من _MAX_ إجمالي الدورات)"
 
 #. Translators: _MENU_ is a placeholder. Do NOT translate it.
 #: static/js/views/course_list_view.js:63
 msgid "Display _MENU_ courses"
-msgstr "عرض مساقات _MENU_"
+msgstr "عرض دورات _MENU_"
 
 #: static/js/views/course_list_view.js:69
 msgid "Course"
-msgstr "مساق "
+msgstr "دورة "
 
 #: static/js/views/course_list_view.js:86
 msgid "Last Edited"

@@ -801,7 +801,7 @@ msgstr "أدخل عنوان البريد الإلكتروني أو اسم الم
 
 #: enterprise/admin/forms.py:315
 msgid "Course"
-msgstr "مساق "
+msgstr "دورة "
 
 #: enterprise/admin/forms.py:316
 msgid "Enter the course run key."
@@ -2651,7 +2651,7 @@ msgstr "حسب خطى المُدرس"
 
 #: enterprise/views.py:1265
 msgid "Self-Paced"
-msgstr "مساق دائم"
+msgstr "دورة دائم"
 
 #: enterprise/views.py:1451
 msgid "FREE"
@@ -2692,7 +2692,7 @@ msgstr "تأكيد الدورة الخاصة بك"
 
 #: enterprise/views.py:1605
 msgid "View Course Details"
-msgstr "عرض تفاصيل المساق"
+msgstr "عرض تفاصيل الدورة"
 
 #: enterprise/views.py:1606
 msgid "Please select one:"
