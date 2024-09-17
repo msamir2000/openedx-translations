@@ -1,17 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\translations",
-    "\\translations\\frontend-app-discussions\\src",
-    "\\translations\\frontend-app-discussions\\src\\i18n",
-    "\\translations\\frontend-app-discussions\\src\\i18n\\messages",
-    "\\translations\\frontend-app-learning\\src",
-    "\\translations\\frontend-app-learning\\src\\i18n",
-    "\\translations\\frontend-app-learning\\src\\i18n\\messages",
-    "\\translations\\paragon\\src",
-    "\\translations\\paragon\\src\\i18n",
-    "\\translations\\paragon\\src\\i18n\\messages"
+    "\\translations"
   ],
-  "SelectedNode": "\\translations\\frontend-app-learning",
   "PreviewInSolutionExplorer": false
 }

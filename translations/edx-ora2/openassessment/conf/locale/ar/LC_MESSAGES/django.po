@@ -2541,7 +2541,7 @@ msgstr "بانتظار آراء الزملاء"
 
 #: xblock/grade_mixin.py:655
 msgid "The grade for this problem is determined by your Staff Grade."
-msgstr "تم تقدير درجة هذه المسألة وفقًا لتقييم طاقم دورةك."
+msgstr "تم تقدير درجة هذه المسألة وفقًا لتقييم طاقم دورتك."
 
 #: xblock/grade_mixin.py:657
 msgid ""

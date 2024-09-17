@@ -75,7 +75,7 @@
   "payment.order.details.enrollment.code.receive.email": "ستتلقى بريدًا إلكترونيًا على {userEmail} يتضمن رمز (رموز) التسجيل الخاص بك.",
   "payment.order.details.course.entitlement": "عند إتمام طلبيتك ستكون قادرًا على تحديد تواريخ الدورة من لوحة معلوماتك.",
   "payment.order.details.course.seat.verified": "يشمل الإجمالي المذكور أعلاه أي ضرائب مطبقة. بعد إكمال طلبك، سيتم تسجيلك تلقائيًا في المسار المعتمد للدورة.",
-  "payment.order.details.course.seat.credit": "عند إتمام طلبيتك ستحصل على اعتماد لدورةك.",
+  "payment.order.details.course.seat.credit": "عند إتمام طلبيتك ستحصل على اعتماد لدورتك.",
   "payment.order.details.course.seat": "عند استكمال طلبيتك سيتم إلحاقك تلقائيًا في للدورة.",
   "payment.card.details.billing.information.heading": "معلومات الفواتير (مطلوب)",
   "payment.card.details.expiration.month.label": "شهر انتهاء الصلاحية (مطلوب)",

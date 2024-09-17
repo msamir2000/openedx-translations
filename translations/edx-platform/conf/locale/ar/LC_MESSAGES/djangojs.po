@@ -1404,7 +1404,7 @@ msgid ""
 "by topic. Join an open public team to collaborate with other learners who "
 "are interested in the same topic as you are."
 msgstr ""
-"عرض جميع الفرق التي تنتمي إليها وجميع الفرق العامة في دورةك، مرتبة حسب "
+"عرض جميع الفرق التي تنتمي إليها وجميع الفرق العامة في دورتك، مرتبة حسب "
 "الموضوع. انضم إلى فريق عام مفتوح للتعاون مع متعلمين آخرين مهتمين بنفس "
 "الموضوع مثلك."
 
@@ -1413,7 +1413,7 @@ msgid ""
 "See all teams you belong to and all public teams in your course, organized "
 "by topic."
 msgstr ""
-"عرض جميع الفرق التي تنتمي إليها وجميع الفرق العامة في دورةك مرتبة حسب "
+"عرض جميع الفرق التي تنتمي إليها وجميع الفرق العامة في دورتك مرتبة حسب "
 "الموضوع."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
@@ -6649,8 +6649,8 @@ msgid ""
 " identify the failed component. Inspect your course to identify any "
 "problematic components and try again."
 msgstr ""
-"تعذّر تصدير دورةك إلى ملف بصيغة XML، ولا نملك معلومات كافية لتحديد العنصر "
-"الخاطئ. يرجى التحقق من دورةك لتحديد أي عناصر خاطئة ثم حاول مرة أخرى."
+"تعذّر تصدير دورتك إلى ملف بصيغة XML، ولا نملك معلومات كافية لتحديد العنصر "
+"الخاطئ. يرجى التحقق من دورتك لتحديد أي عناصر خاطئة ثم حاول مرة أخرى."
 
 #: cms/static/js/views/export.js
 msgid "Take me to the main course page"
@@ -9439,7 +9439,7 @@ msgstr "قائمة الدورات التي سجّلت فيها لتوّك كطا
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Explore your course!"
-msgstr "استكشف دورةك!"
+msgstr "استكشف دورتك!"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Go to your Dashboard"
@@ -11124,7 +11124,7 @@ msgstr "عرض الإجازة"
 msgid ""
 "The following message will be displayed at the bottom of the courseware "
 "pages within your course:"
-msgstr "ستُعرَض الرسالة التالية في أسفل صفحات محتويات دورةك:"
+msgstr "ستُعرَض الرسالة التالية في أسفل صفحات محتويات دورتك:"
 
 #: cms/templates/js/license-selector.underscore
 msgid "Creative Commons licensed content, with terms as follow:"
@@ -11730,7 +11730,7 @@ msgid ""
 "course settings:"
 msgstr ""
 "يُرجى الاطلاع على ملاحظات التحقّق التالية وإجراء ما يلزم من تعديلات على "
-"الإعدادات الخاصة بدورةك."
+"الإعدادات الخاصة بدورتك."
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid "Verification Checkpoint"
